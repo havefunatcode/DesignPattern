@@ -1,11 +1,17 @@
 package inflearn.lecture.singleton;
 
-import java.util.Set;
-
 public class App {
 
     public static void main(String[] args) {
-        Settings settings = Settings.getInstance();
+        SingletonWithPrivateConstructor settings = SingletonWithPrivateConstructor.getInstance();
+    }
+
+    private static void constructWithReflection() {
+
+    }
+
+    private static void constructWithSerialization() {
+
     }
 
 }
